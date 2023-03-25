@@ -1,0 +1,42 @@
+# .NET
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# NuGet
+**/packages/*
+!.nuget/packages/ProjectName.PackageName/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Resharper cache/temporary files
+_resharper*/
+*.resharper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.csproj.DotSettings.user
+
+# Others
+[Tt]est[Rr]esult*/
+*.testsettings
+*.SolutionBackup
+*.config
