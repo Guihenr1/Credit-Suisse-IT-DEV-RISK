@@ -1,11 +1,10 @@
 using ItDevRisk.interfaces;
-using ItDevRisk.models;
 
 namespace ItDevRisk.factories
 {
   public static class ClientFactory
   {
-    public static ITrade CreateClient(Trade trade)
+    public static ITrade CreateClient(ITrade trade)
     {
       switch (trade.ClientSector)
       {
